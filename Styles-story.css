@@ -52,7 +52,7 @@ body{
 }
 
 
-.header {
+/* .header {
     position:fixed;
     top:0;
     left: 0;
@@ -65,7 +65,7 @@ body{
     z-index: 100;
     box-sizing:border-box;
      
-}
+} */
  .gradient-background {
     background: linear-gradient(#e66465, #9198e5);
     background-repeat: linear-gradient(#e66465, #9198e5);
@@ -103,11 +103,11 @@ body{
     font-weight: 800;
  }
 
- .navbar a {
+ /* .navbar a {
     position: relative;
     /* float: left; do not need float with inline-block */
     /* display: inline; */
-    right: 0;
+    /* right: 0;
     justify-content: flex-end;
     margin: 0;
     padding: 0;
@@ -116,17 +116,17 @@ body{
     font-weight: 500;
     text-decoration: none;
     margin-left: 50px;
-    margin: 0 80px;
+    margin: 0 80px; */
     /* played with this margin started on 20, went to 75, and now it is 
     closer to the logo. */
-    list-style: none;
+    /* list-style: none;
     display: inline-block;
-    padding: 15px ;
+    padding: 15px ; */
 
     
 
     /* fixed the navbar going to the left more with margin-left */
-}
+/* }
 
  .navbar a::before {
     content: '';
@@ -142,7 +142,7 @@ body{
 }
  .navbar a:hover::before {
     width:100%
-}
+} */ 
 
 
 h1,h2,h3{
