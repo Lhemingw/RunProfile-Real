@@ -1,4 +1,4 @@
-html{ 
+/* html{ 
     margin: 0rem;
     padding: 0;
     box-sizing: boarder-box;
@@ -7,10 +7,10 @@ html{
     background-repeat: linear-gradient(#e66465, #9198e5);
     background-repeat: none;
     background-size: cover;
-}
+} */
 
 /* This is for the index.html */
-body{
+/* body{ */
     /* min-height: 100vh;  */
     /* I lose gradient */
     /* margin: 0rem;
@@ -21,10 +21,10 @@ body{
     background-repeat: linear-gradient(#e66465, #9198e5);
     background-repeat: none;
     background-size: cover;  */
-    margin-top: 5rem;
+    /* margin-top: 5rem;
     margin-bottom: 1rem;
     margin-right: 4rem;
-    margin-left: 4rem;
+    margin-left: 4rem; */
     /* margin-top: 5rem; */
     /* This margin-top fixed the small-big of the linear-graident  */
     /* margin-bottom: 1rem;
@@ -32,7 +32,7 @@ body{
     margin-left: 4rem;  */
 
     
-}
+/* } */
 #running-content {
     background: linear-gradient(#e66465, #9198e5);
     background-repeat: linear-gradient(#e66465, #9198e5);
@@ -145,7 +145,7 @@ body{
 } */ 
 
 
-h1,h2,h3{
+/* h1,h2,h3{
     margin: auto;
     display: flex;
     justify-content: center;
@@ -165,7 +165,7 @@ h1,h2,h3{
     width: 50%;
     border: 3px, rebeccapurple;
     padding: 10px;
-}
+} */
 
 .li{
     font-family: 'Times New Roman', Times, serif, 18px;
@@ -217,16 +217,16 @@ footer{
 }
 
 /* styles.css */
-.header{
+/* .header{
     text-align: center;
     margin: 0 auto;
-}
+} */
 
-.boxed-header {
+/* .boxed-header {
     padding: 10px;
-    border: 1px, solid, #1991d7;
+    border: 1px, solid, #1991d7; */
  /* Optional: Add padding to the table header cells for spacing */
-  }
+  /* } */
 .container-form{
     justify-content: center;
 }
