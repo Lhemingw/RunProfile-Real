@@ -27,6 +27,10 @@ body{
     filter:drop-shadow(2px 2px 1px #1991d7);
     text-align: center;  
 }
+
+.margin-top{
+    margin-top: 120px;
+}
 #boarder{
     border-start-end-radius: 60px,14px;
     border-color: blueviolet;
