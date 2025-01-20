@@ -1,0 +1,251 @@
+/* html{ 
+    margin: 0rem;
+    padding: 0;
+    box-sizing: boarder-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(#e66465, #9198e5);
+    background-repeat: linear-gradient(#e66465, #9198e5);
+    background-repeat: none;
+    background-size: cover;
+} */
+
+/* This is for the index.html */
+/* body{ */
+    /* min-height: 100vh;  */
+    /* I lose gradient */
+    /* margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(#e66465, #9198e5);
+    background-repeat: linear-gradient(#e66465, #9198e5);
+    background-repeat: none;
+    background-size: cover;  */
+    /* margin-top: 5rem;
+    margin-bottom: 1rem;
+    margin-right: 4rem;
+    margin-left: 4rem; */
+    /* margin-top: 5rem; */
+    /* This margin-top fixed the small-big of the linear-graident  */
+    /* margin-bottom: 1rem;
+    margin-right: 4rem;
+    margin-left: 4rem;  */
+
+    
+/* } */
+#running-content {
+    background: linear-gradient(#e66465, #9198e5);
+    background-repeat: linear-gradient(#e66465, #9198e5);
+    background-repeat: none;
+    background-size: cover;
+    padding: 20px;
+    margin-top: 100px; /* Adjust based on your header height */
+    border-radius: 10px;
+    max-width: 800px; /* Adjust as needed */
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 300px; /* Adjust as needed */
+    overflow: auto; /* This will contain the gradient within the element */
+    max-width: 800px;
+    margin: 120px auto 30px; /* Increased top margin to push content down*/
+   
+}
+
+
+/* .header {
+    position:fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 30px 50px 30px 10px;
+    background: rgb(87, 25, 221);
+    display: flex;
+     justify-content: space-between; 
+    align-items: center;
+    z-index: 100;
+    box-sizing:border-box;
+     
+} */
+ .gradient-background {
+    background: linear-gradient(#e66465, #9198e5);
+    background-repeat: linear-gradient(#e66465, #9198e5);
+  
+    background-size: cover; 
+    background-size: cover;
+    margin-top: 80px;
+    padding: 20px;
+    margin-top: 100px; 
+    border-radius: 10px;
+    max-width: 800px; 
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    margin-right: 4rem;
+    margin-left: 4rem; 
+
+    min-height: 50px; 
+    /* This min-height: is making the Para go sit under the nav; */
+ }
+
+.section-title {
+    color: white;
+    text-align: center;
+}
+
+
+ .logo {
+    font-size: larger;
+    font-size: 40px;
+    color: white;
+    text-decoration:double;
+    font-weight: 800;
+ }
+
+ /* .navbar a {
+    position: relative;
+    /* float: left; do not need float with inline-block */
+    /* display: inline; */
+    /* right: 0;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #ffff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 50px;
+    margin: 0 80px; */
+    /* played with this margin started on 20, went to 75, and now it is 
+    closer to the logo. */
+    /* list-style: none;
+    display: inline-block;
+    padding: 15px ; */
+
+    
+
+    /* fixed the navbar going to the left more with margin-left */
+/* }
+
+ .navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #ccc1c1;
+    transition: .3s;
+    justify-content: flex-end;
+  
+}
+ .navbar a:hover::before {
+    width:100%
+} */ 
+
+
+/* h1,h2,h3{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 38px;
+    filter:drop-shadow(2px 2px 1px #1991d7);
+    text-align: center;  
+    
+}
+#boarder{
+    border-start-end-radius: 60px,14px;
+    border-color: blueviolet;
+    border-bottom-style: dotted;
+ }
+.center{
+    align-content: center;
+    margin: auto;
+    width: 50%;
+    border: 3px, rebeccapurple;
+    padding: 10px;
+} */
+
+.li{
+    font-family: 'Times New Roman', Times, serif, 18px;
+
+}
+.ol{
+    font: size 20px;
+    padding: 20px;
+    background-color: #1991d7;
+}
+.container-table{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically (optional, if needed) */
+    width:100vw;
+    height: 100vh;
+}
+
+
+footer{
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+    font-size: 10px;
+}
+/*END OF RUNNING-INFO STYLING*/
+
+.container-form{
+    padding: 20px;
+    border-style: dotted;
+    border-color: blueviolet;
+    background-color : #1991d7;
+    border-width: 3px;
+    margin:30px;
+    display: flex;
+    justify-content:center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically (optional, if needed) */
+    /*width:100vw;*/
+    /*height: 100vh;*/
+}
+.boxed-header {
+    padding: 10px;
+    border: 1px, solid, #1991d7;
+ /* Optional: Add padding to the table header cells for spacing */
+  }
+.style{
+    margin: 0 auto;
+}
+
+/* styles.css */
+/* .header{
+    text-align: center;
+    margin: 0 auto;
+} */
+
+/* .boxed-header {
+    padding: 10px;
+    border: 1px, solid, #1991d7; */
+ /* Optional: Add padding to the table header cells for spacing */
+  /* } */
+.container-form{
+    justify-content: center;
+}
+.box{
+    font: size 25px;
+    padding: 20px;
+    background-color: #1991d7;
+/* added below */
+    background-color: #1991d7(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+.img {
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+    font: size 25px;
+    padding: 20px;
+    background-color: #1991d7;
+  }
