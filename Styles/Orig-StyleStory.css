@@ -110,20 +110,27 @@ body{
  /* Optional: Add padding to the table header cells for spacing */
   }
 .container-form{
-   
+    display: flex;
     justify-content: center;
-    display: flex; 
+    align-items: center;
+    
     /* Added more extra for container-form */ 
 
 }
 .box{
+    display: flex;
+    flex-direction:   column;
+    justify-content: center; 
+   align-items: center;
     font: size 25px;
     padding: 20px;
     background-color: #1991d7;
 }
 .img {
+    
     margin: 1rem;
     border-radius: 1rem;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
-  
+    width: auto; /* Keep the width flexible */
+    display: block; 
   }
