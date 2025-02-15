@@ -1,0 +1,105 @@
+
+html{ 
+    margin: 0rem;
+    padding: 0;
+    box-sizing: boarder-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-image: repeating-linear-gradient */
+    background-image: repeating-linear-gradient(#e66465, #9198e5 10%, #e66465 20%);
+    background-image: repeating-linear-gradient(50%#e66465, 50%#9198e5);
+    background-repeat: linear-gradient(#e66465, #9198e5);
+    background-repeat: repeat;
+    background-size: 100%;
+    margin-top: 5rem;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(#e66465, #9198e5);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: rgb(87, 25, 221);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+#running-content {
+    max-width: 800px;
+    margin: 120px auto 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+.section-title {
+    color: #333;
+    text-align: center;
+    font-size: 28px;
+}
+
+.box {
+    font: size 25px;
+    background-color: #1991d7;
+    padding: 20px;
+    /* border-radius: 10px; */
+    /* margin-top: 20px; */
+}
+
+.img {
+    max-width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.boxed-header {
+    padding: 10px;
+    border: 1px, solid, #1991d7;
+ /* Optional: Add padding to the table header cells for spacing */
+  }
+
+#boarder {
+    border-bottom: 2px dotted blueviolet;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.h1, .h2, .h3 {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+}

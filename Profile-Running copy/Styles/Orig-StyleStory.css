@@ -1,0 +1,376 @@
+html{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(#e66465, #9198e5);
+    background-repeat: linear-gradient(#e66465, #9198e5);
+    /* background-repeat:no-repeat; */
+    background-size: cover;
+}
+
+
+body{
+    border: 2px solid rgb(75 70 74);
+    border-radius: 0.5em;
+    font: 1.2em sans-serif;
+
+   
+    /* This margin-top: is the reason my gradiant was small; */
+    margin-bottom: 5rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    /* padding-top: 60px; this made gradient bigger*/
+}
+.h1,h2,h3{
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    font-size: 38px;
+    /* filter:drop-shadow(2px 2px 1px #1991d7); */
+    text-shadow: 2px 2px 5px rgb(87, 25, 221); /* Adds shadow to the text */
+
+    text-align: center;  
+}
+.filter{
+filter:drop-shadow(2px 2px 1px #1991d7);
+}
+.margin-top{
+    margin-top: 120px;
+}
+#boarder{
+    border-start-end-radius: 60px,18px;
+    border-color: #c71585;
+    border-bottom-style: dotted;
+ }
+.center{
+    align-content: center;
+    margin: auto;
+    width: 50%;
+    border: 3px, rebeccapurple;
+    padding: 10px;
+}
+
+.li{
+    font-family: 'Times New Roman', Times, serif, 18px;
+
+}
+.ol{
+    font: size 20px;
+    padding: 20px;
+    background-color: #1991d7;
+}
+.container-table{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically (optional, if needed) */
+    width:100vw;
+    height: 100vh;
+}
+
+
+.footer{
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+    font-size: 12px;
+}
+/*END OF RUNNING-INFO STYLING*/
+
+.container-form{
+    padding: 60px;
+    border-style: dotted;
+    border-color: blueviolet;
+    background-color : #1991d7;
+    border-width: 4px;
+    margin:15px;
+    display: flex;
+    justify-content:center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically (optional, if needed) */
+    /*width:100vw;*/
+    /*height: 100vh;*/
+   
+}
+.boxed-header {
+    padding: 10px;
+    border: 1px, solid, #1991d7;
+ /* Optional: Add padding to the table header cells for spacing */
+  }
+.style{
+    margin: 0 auto;
+}
+
+/* styles.css */
+.header{
+    /* Header/Logo Title */
+
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+ }
+
+
+.boxed-header {
+    padding: 10px;
+    border: 1px, solid,  #5a9ff9;
+ /* Optional: Add padding to the table header cells for spacing */
+  }
+.container-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Added more extra for container-form */ 
+
+}
+.box{
+    display: flex;
+    flex-direction:   column;
+    justify-content: center; 
+   align-items: center;
+    font: size 25px;
+    padding: 20px;
+    background-color: #1991d7 ;
+}
+.background-color{
+    background-color: #6cb1f7;
+    left: calc(50% - 30px); /* Shift slightly left */
+    
+}
+
+/* Experement  #1991d7 */
+/* .toggle-btn {
+    padding: 10px 20px;
+    background: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+.info-box {
+    padding: 20px;
+    border: 1px solid black;
+    background-color: lightblue;
+    transition: background-color 0.3s ease;
+  }
+
+  .transparent {
+    background-color: rgba(255, 255, 255, 0.2);
+  } */
+.img {
+    
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.6);
+    width: auto; /* Keep the width flexible */
+    display: block; 
+  }
+
+  /* Another way to do "The Story " part */
+  .content {
+    padding: 2rem;
+}
+
+.section-title {
+    color: #2575fc;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    /* filter:drop-shadow(2px 2px 1px #1991d7); */
+    text-shadow: 2px 2px 5px rgb(87, 25, 221); 
+    /* Adds shadow to the text */
+
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+    /* filter:drop-shadow(2px 2px 1px #1991d7) */
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    /* Adds stronger shadow below*/
+    /* box-shadow: 0 4px 6px rgba(0, 6, 12, 0.6); */
+    /* Create a glow effect** */
+    /* box-shadow: 0 0 15px rgb(87, 25, 221); */
+    /* flat shadow (more spread) */
+    box-shadow: 0 2px 20px rgba(87, 25, 221, 0.9);
+
+    overflow: hidden;
+    
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+/* Added img values */
+border: 4px solid #2575fc; /* Adds a blue border around the images */
+border-radius: 10px; /* Rounds the corners */
+transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.card:hover img {
+    transform: scale(1.05); /* Slightly increases the size on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Adds a deeper shadow on hover */
+}
+
+.card-content {
+    padding: 1rem;
+}
+
+.card-content h3 {
+    margin: 0 0 0.5rem;
+}
+
+.card-content p {
+    margin: 0;
+}
+
+/* Ensure all images are the same size */
+.card img {
+    width: 100%;
+    height: 320px; /* Adjust height to match "The Story" images */
+    object-fit: cover; /* Ensures consistent cropping */
+    border-radius: 10px;
+  }
+  
+
+/* AI ideas for home page */
+.hero {
+    text-align: center;
+    /* height: 100vh; this and the one below do not do what I want makes it too big*/
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    /* 100px 20px makes it bigger */
+    background: linear-gradient(to bottom, #7a4fe2, #1e90ff); /*  #7f55e1, #4b1d91 these 2 colors are a monocromatic purpleLighter at the top, darker at the bottom */
+    color: white;
+     /* color:black;  */
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adds depth */
+    text-shadow: 2px 2px 5px rgb(87, 25, 221); /* Adds shadow to the text */  
+}
+/* .text-shadow-custom {
+    text-shadow: 2px 2px 5px rgb(87, 25, 221);
+} */
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.hero button {
+  
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+    background-color: #ff6b6b;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.hero button:hover {
+    background-color: #ff4757;
+    transform: scale(1.05);
+}
+
+/* Text Box */
+/* Styling for Side-by-Side Layout */
+.hero-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .personal-story {
+    display: flex;
+    align-items: flex-center;
+    font-size: 0.9em;
+    line-height: 1.5;
+    padding: 8px;
+    background-color:#6cb1f7;
+    border-radius: 8px;
+    max-width: 300px;
+    grid-column-start: 1;
+    grid-column-end: span col4-start;
+    grid-row-start: 2;
+    grid-row-end: span 2;
+  }
+  .hero-image-box img{
+    max-width: 250px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+
+  }
+ /* CSS for Side-by-Side Boxes */
+.hero-content {
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+  }
+  .personal-story-container {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 95px;
+  margin-top: 20px;
+  }
+  .personal-story-box {
+    background-color: rgba(240, 240, 240, 0.85);
+    border-radius: 10px;
+    padding: 16px;
+    width: 420px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Adjust positioning for image cards */
+  .gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+  }
+/* Apply header gradient background to the white section */
+#home-gallery {
+    background: linear-gradient(to bottom, rgba(122, 79, 226, 0.7), rgba(30, 144, 255, 0.7));
+    /*background: linear-gradient(to bottom, #7a4fe2, #1e90ff);  Replace with actual colors */
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  /* Offset the first card to the left */
+.first-card {
+    margin-left: -50px; /* Moves it left by approximately 3 inches */
+  }
+  
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        font-size: 1rem;
+    }
+}

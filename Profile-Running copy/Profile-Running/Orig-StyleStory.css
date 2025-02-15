@@ -1,0 +1,129 @@
+html{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(#e66465, #9198e5);
+    background-repeat: linear-gradient(#e66465, #9198e5);
+    /* background-repeat:no-repeat; */
+    background-size: cover;
+}
+
+
+body{
+    border: 2px solid rgb(75 70 74);
+    border-radius: 0.5em;
+    font: 1.2em sans-serif;
+
+   
+    /* This margin-top: is the reason my gradiant was small; */
+    margin-bottom: 5rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    /* padding-top: 60px; this made gradient bigger*/
+}
+.h1,h2,h3{
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    font-size: 38px;
+    filter:drop-shadow(2px 2px 1px #1991d7);
+    text-align: center;  
+}
+
+.margin-top{
+    margin-top: 120px;
+}
+#boarder{
+    border-start-end-radius: 60px,14px;
+    border-color: blueviolet;
+    border-bottom-style: dotted;
+ }
+.center{
+    align-content: center;
+    margin: auto;
+    width: 50%;
+    border: 3px, rebeccapurple;
+    padding: 10px;
+}
+
+.li{
+    font-family: 'Times New Roman', Times, serif, 18px;
+
+}
+.ol{
+    font: size 20px;
+    padding: 20px;
+    background-color: #1991d7;
+}
+.container-table{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically (optional, if needed) */
+    width:100vw;
+    height: 100vh;
+}
+
+
+.footer{
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+    font-size: 12px;
+}
+/*END OF RUNNING-INFO STYLING*/
+
+.container-form{
+    padding: 60px;
+    border-style: dotted;
+    border-color: blueviolet;
+    background-color : #1991d7;
+    border-width: 4px;
+    margin:15px;
+    display: flex;
+    justify-content:center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically (optional, if needed) */
+    /*width:100vw;*/
+    /*height: 100vh;*/
+   
+}
+.boxed-header {
+    padding: 10px;
+    border: 1px, solid, #1991d7;
+ /* Optional: Add padding to the table header cells for spacing */
+  }
+.style{
+    margin: 0 auto;
+}
+
+/* styles.css */
+.header{
+    /* Header/Logo Title */
+
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+ }
+
+
+.boxed-header {
+    padding: 10px;
+    border: 1px, solid, #1991d7;
+ /* Optional: Add padding to the table header cells for spacing */
+  }
+.container-form{
+   
+    justify-content: center;
+    display: flex; 
+    /* Added more extra for container-form */ 
+
+}
+.box{
+    font: size 25px;
+    padding: 20px;
+    background-color: #1991d7;
+}
+.img {
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+  
+  }
